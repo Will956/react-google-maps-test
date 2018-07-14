@@ -1,0 +1,64 @@
+{
+  "sessions": [
+    {
+      "name": "Séance 1",
+      "description": "Une petite description",
+      "date": "2018-07-16T15:06:02+00:00",
+      "coordinates": {
+        "lat": 48.8617365,
+        "lng": 2.3591427
+      },
+      "max_participant": 20,
+      "nb_participant": 13,
+      "type": "burn"
+    },
+    {
+      "name": "Séance 2",
+      "description": "Une petite description 2",
+      "date": "2018-07-18T15:06:02+00:00",
+      "coordinates": {
+        "lat": 48.834328,
+        "lng": 2.3706006
+      },
+      "max_participant": 13,
+      "nb_participant": 4,
+      "type": "pump"
+    },
+    {
+      "name": "Séance 3",
+      "description": "Une petite description 3",
+      "date": "2018-07-22T15:06:02+00:00",
+      "coordinates": {
+        "lat": 48.8558986,
+        "lng": 2.2980875
+      },
+      "max_participant": 30,
+      "nb_participant": 23,
+      "type": "pulse"
+    },
+    {
+      "name": "Séance 4",
+      "description": "Une petite description 4",
+      "date": "2018-07-28T15:06:02+00:00",
+      "coordinates": {
+        "lat": 48.8809496,
+        "lng": 2.3827609
+      },
+      "max_participant": 15,
+      "nb_participant": 9,
+      "type": "pump"
+    },
+    {
+      "name": "Séance 5",
+      "description": "Une petite description 5",
+      "date": "2018-08-03T15:06:02+00:00",
+      "coordinates": {
+        "lat": 48.8737793,
+        "lng": 2.2950156
+      },
+      "max_participant": 6,
+      "nb_participant": 6,
+      "type": "burn"
+    }
+  ]
+}

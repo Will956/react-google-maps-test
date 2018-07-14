@@ -4,7 +4,31 @@ exports[`<Home /> tests snapshot: renders default state 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Home />,
+  Symbol(enzyme.__unrendered__): <Home
+    fetchSessions={[Function]}
+    sessions={
+        Object {
+            "error": null,
+            "isFetching": false,
+            "sessions": Array [
+              Object {
+                "coordinates": Object {
+                  "lat": 48.8558986,
+                  "lng": 2.2980875,
+                },
+                "name": "first",
+              },
+              Object {
+                "coordinates": Object {
+                  "lat": 50.8558986,
+                  "lng": 2.2980875,
+                },
+                "name": "second",
+              },
+            ],
+          }
+    }
+/>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -38,6 +62,24 @@ ShallowWrapper {
                         className=""
                 />
         }
+        sessions={
+                Array [
+                        Object {
+                          "coordinates": Object {
+                            "lat": 48.8558986,
+                            "lng": 2.2980875,
+                          },
+                          "name": "first",
+                        },
+                        Object {
+                          "coordinates": Object {
+                            "lat": 50.8558986,
+                            "lng": 2.2980875,
+                          },
+                          "name": "second",
+                        },
+                      ]
+        }
 />,
     },
     "ref": null,
@@ -60,6 +102,22 @@ ShallowWrapper {
         "mapElement": <div
           className=""
 />,
+        "sessions": Array [
+          Object {
+            "coordinates": Object {
+              "lat": 48.8558986,
+              "lng": 2.2980875,
+            },
+            "name": "first",
+          },
+          Object {
+            "coordinates": Object {
+              "lat": 50.8558986,
+              "lng": 2.2980875,
+            },
+            "name": "second",
+          },
+        ],
       },
       "ref": null,
       "rendered": null,
@@ -94,6 +152,24 @@ ShallowWrapper {
                               className=""
                     />
           }
+          sessions={
+                    Array [
+                              Object {
+                                "coordinates": Object {
+                                  "lat": 48.8558986,
+                                  "lng": 2.2980875,
+                                },
+                                "name": "first",
+                              },
+                              Object {
+                                "coordinates": Object {
+                                  "lat": 50.8558986,
+                                  "lng": 2.2980875,
+                                },
+                                "name": "second",
+                              },
+                            ]
+          }
 />,
       },
       "ref": null,
@@ -116,6 +192,22 @@ ShallowWrapper {
           "mapElement": <div
             className=""
 />,
+          "sessions": Array [
+            Object {
+              "coordinates": Object {
+                "lat": 48.8558986,
+                "lng": 2.2980875,
+              },
+              "name": "first",
+            },
+            Object {
+              "coordinates": Object {
+                "lat": 50.8558986,
+                "lng": 2.2980875,
+              },
+              "name": "second",
+            },
+          ],
         },
         "ref": null,
         "rendered": null,
