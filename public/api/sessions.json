@@ -2,7 +2,9 @@
   "sessions": [
     {
       "name": "Séance 1",
-      "description": "Une petite description",
+      "coach": "Zlatan Ibrahimovic",
+      "description":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis vitae purus nec tincidunt.",
       "date": "2018-07-16T15:06:02+00:00",
       "coordinates": {
         "lat": 48.8617365,
@@ -14,7 +16,9 @@
     },
     {
       "name": "Séance 2",
-      "description": "Une petite description 2",
+      "coach": "Robert Pires",
+      "description":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis vitae purus nec tincidunt.",
       "date": "2018-07-18T15:06:02+00:00",
       "coordinates": {
         "lat": 48.834328,
@@ -26,7 +30,9 @@
     },
     {
       "name": "Séance 3",
-      "description": "Une petite description 3",
+      "coach": "Christine Arron",
+      "description":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis vitae purus nec tincidunt.",
       "date": "2018-07-22T15:06:02+00:00",
       "coordinates": {
         "lat": 48.8558986,
@@ -38,7 +44,9 @@
     },
     {
       "name": "Séance 4",
-      "description": "Une petite description 4",
+      "coach": "Christophe Lemaitre",
+      "description":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis vitae purus nec tincidunt.",
       "date": "2018-07-28T15:06:02+00:00",
       "coordinates": {
         "lat": 48.8809496,
@@ -50,7 +58,9 @@
     },
     {
       "name": "Séance 5",
-      "description": "Une petite description 5",
+      "coach": "Mario Yepes",
+      "description":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis vitae purus nec tincidunt.",
       "date": "2018-08-03T15:06:02+00:00",
       "coordinates": {
         "lat": 48.8737793,

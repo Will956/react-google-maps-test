@@ -1,0 +1,83 @@
+$c-pump: #71cac1;
+$c-pulse: #ef7875;
+$c-burn: #4d8ff4;
+
+.box {
+  width: 230px;
+  margin: 0px 10px;
+  position: relative;
+  border-radius: 4px;
+  padding: 10px;
+
+  &.pump {
+    background-color: $c-pump;
+
+    &:after {
+      border-color: $c-pump transparent transparent;
+    }
+
+    &.arrow-left-center:after {
+      border-right-color: $c-pump;
+    }
+  }
+
+  &.pulse {
+    background-color: $c-pulse;
+
+    &:after {
+      border-color: $c-pulse transparent transparent;
+    }
+
+    &.arrow-left-center:after {
+      border-right-color: $c-pulse;
+    }
+  }
+
+  &.burn {
+    background-color: $c-burn;
+
+    &:after {
+      border-color: $c-burn transparent transparent;
+    }
+
+    &.arrow-left-center:after {
+      border-right-color: $c-burn;
+    }
+  }
+
+  p {
+    margin: 5px;
+
+    &.date {
+      font-size: 18px;
+    }
+
+    &.description,
+    &.coach {
+      margin: 15px 5px;
+    }
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    border-width: 10px 10px 0;
+    border-style: solid;
+    margin-left: -10px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+  }
+
+  &.arrow-left-center:after {
+    border-width: 10px;
+    border-left-color: transparent;
+    border-left-width: 0;
+    border-top-color: transparent;
+    margin: -10px 0 0;
+    left: -10px;
+    right: auto;
+    top: 50%;
+    bottom: auto;
+  }
+}
