@@ -5,7 +5,7 @@
       "coach": "Zlatan Ibrahimovic",
       "description":
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis vitae purus nec tincidunt.",
-      "date": "2018-07-16T15:06:02+00:00",
+      "date": "2018-07-22T11:00:00+00:00",
       "coordinates": {
         "lat": 48.8617365,
         "lng": 2.3591427
@@ -19,7 +19,7 @@
       "coach": "Robert Pires",
       "description":
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis vitae purus nec tincidunt.",
-      "date": "2018-07-18T15:06:02+00:00",
+      "date": "2018-07-22T15:00:00+00:00",
       "coordinates": {
         "lat": 48.834328,
         "lng": 2.3706006
@@ -33,7 +33,7 @@
       "coach": "Christine Arron",
       "description":
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis vitae purus nec tincidunt.",
-      "date": "2018-07-22T15:06:02+00:00",
+      "date": "2018-07-23T11:00:00+00:00",
       "coordinates": {
         "lat": 48.8558986,
         "lng": 2.2980875
@@ -47,7 +47,7 @@
       "coach": "Christophe Lemaitre",
       "description":
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis vitae purus nec tincidunt.",
-      "date": "2018-07-28T15:06:02+00:00",
+      "date": "2018-07-23T15:00:00+00:00",
       "coordinates": {
         "lat": 48.8809496,
         "lng": 2.3827609
@@ -61,7 +61,7 @@
       "coach": "Mario Yepes",
       "description":
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis vitae purus nec tincidunt.",
-      "date": "2018-08-03T15:06:02+00:00",
+      "date": "2018-07-24T15:00:00+00:00",
       "coordinates": {
         "lat": 48.8737793,
         "lng": 2.2950156

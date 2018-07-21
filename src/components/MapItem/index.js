@@ -40,7 +40,8 @@ class MapItem extends Component {
       description,
       date,
       max_participant,
-      nb_participant
+      nb_participant,
+      weather
     } = this.props;
     return (
       <Marker
@@ -60,6 +61,9 @@ class MapItem extends Component {
           >
             <div className={classNames(s.box, s[type], s['arrow-left-center'])}>
               <p>Type: {type}</p>
+              <p>
+                Meteo: {Math.round(weather.temp)}°, {weather.description}
+              </p>
               <p className={classNames(s.date)}>
                 {new Date(date).toLocaleString()}
               </p>

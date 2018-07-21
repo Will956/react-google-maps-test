@@ -11,13 +11,15 @@ import s from './index.scss';
 
 class Home extends Component {
   componentDidMount() {
-    const { fetchSessions } = this.props;
+    const { fetchSessions, fetchWeather } = this.props;
     fetchSessions();
+    fetchWeather();
   }
 
   render() {
     const {
-      sessions: { isFetching, error, errorMessage, sessions }
+      sessions: { isFetching, error, errorMessage, sessions },
+      weather: { weather }
     } = this.props;
 
     if (isFetching) return <div>Loading...</div>;
@@ -37,6 +39,7 @@ class Home extends Component {
           containerElement={<div className={classNames(s['map-container'])} />}
           mapElement={<div className={classNames(s.map)} />}
           sessions={sessions}
+          weather={weather}
         />
       </div>
     );

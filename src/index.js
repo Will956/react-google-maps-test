@@ -6,6 +6,7 @@ import { compose, createStore, applyMiddleware } from 'redux';
 import rootReducer from './redux';
 
 import sessionsMiddleware from './redux/sessions/middleware';
+import weatherMiddleware from './redux/weather/middleware';
 
 import Home from './containers/Home';
 import './index.scss';
@@ -13,7 +14,7 @@ import './index.scss';
 const store = createStore(
   rootReducer,
   compose(
-    applyMiddleware(sessionsMiddleware),
+    applyMiddleware(sessionsMiddleware, weatherMiddleware),
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
   )
 );

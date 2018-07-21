@@ -29,13 +29,27 @@ describe('<Home /> tests', () => {
   };
 
   it('snapshot: renders default state', () => {
-    const wrapper = shallow(<Home sessions={mockData} fetchSessions={noop} />);
+    const wrapper = shallow(
+      <Home
+        sessions={mockData}
+        weather={[]}
+        fetchSessions={noop}
+        fetchWeather={noop}
+      />
+    );
 
     expect(wrapper).toMatchSnapshot();
   });
 
   it('correctly takes googleMapURL filled in the config', () => {
-    const wrapper = shallow(<Home sessions={mockData} fetchSessions={noop} />);
+    const wrapper = shallow(
+      <Home
+        sessions={mockData}
+        weather={[]}
+        fetchSessions={noop}
+        fetchWeather={noop}
+      />
+    );
 
     expect(wrapper.find(Map).props().googleMapURL).toEqual(googleMapURL);
   });
